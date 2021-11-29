@@ -78,6 +78,18 @@ ABOUT
     color: black(0,0,0);
 }
 
+.collapse {
+    display: none;
+}
+
+
+@media screen and (max-width:450px) {
+    .collapse {
+        display: block;
+    }
+    
+}
+
 
 /*******************
 
